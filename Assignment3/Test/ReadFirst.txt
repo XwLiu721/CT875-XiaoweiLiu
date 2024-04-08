@@ -1,0 +1,5 @@
+1 Add Test/db-ass3.sql to your own database schema.
+2 Modify Test/src/Main/java/dao/basedao/ConnUtil.java, lines 37-44, with the database connection parameters.
+3 Add Test/lib as a library and include it as a project dependency.
+4 Configure Tomcat and change the Application Context to /test, which will affect the URLs of JSP pages.
+5 Successfully run and translate the English.

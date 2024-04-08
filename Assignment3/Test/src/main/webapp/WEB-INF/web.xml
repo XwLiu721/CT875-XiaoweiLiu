@@ -1,0 +1,121 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>servlet.loginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+    <!--    form表单要匹配的地址-->
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>teacherMainPageServlet</servlet-name>
+    <servlet-class>servlet.teacher.teacherMainPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>teacherMainPageServlet</servlet-name>
+    <url-pattern>/teacherMainPage</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>teacherRegisterLecture</servlet-name>
+    <servlet-class>servlet.teacher.teacherRegisterLecture</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>teacherRegisterLecture</servlet-name>
+    <url-pattern>/teacherRegisterLecture</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>StudentOfLecture</servlet-name>
+    <servlet-class>servlet.StudentOfLecture</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentOfLecture</servlet-name>
+    <url-pattern>/StudentOfLecture</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>student_update_lecture_grade</servlet-name>
+    <servlet-class>servlet.teacher.student_update_lecture_grade</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>student_update_lecture_grade</servlet-name>
+    <url-pattern>/student_update_lecture_grade</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>studentMainPage</servlet-name>
+    <servlet-class>servlet.student.studentMainPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>studentMainPage</servlet-name>
+    <url-pattern>/studentMainPage</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>studentRegisterLecture</servlet-name>
+    <servlet-class>servlet.student.studentRegisterLecture</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>studentRegisterLecture</servlet-name>
+    <url-pattern>/studentRegisterLecture</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>student_lecture_studentuse</servlet-name>
+    <servlet-class>servlet.student.student_lecture_studentuse</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>student_lecture_studentuse</servlet-name>
+    <url-pattern>/student_lecture_studentuse</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>adminMainPage</servlet-name>
+    <servlet-class>servlet.admin.adminMainPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>adminMainPage</servlet-name>
+    <url-pattern>/adminMainPage</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>adminAddNewStudent</servlet-name>
+    <servlet-class>servlet.admin.adminAddNewStudent</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>adminAddNewStudent</servlet-name>
+    <url-pattern>/adminAddNewStudent</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>adminAddNewTeacher</servlet-name>
+    <servlet-class>servlet.admin.adminAddNewTeacher</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>adminAddNewTeacher</servlet-name>
+    <url-pattern>/adminAddNewTeacher</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>adminAddNewLecture</servlet-name>
+    <servlet-class>servlet.admin.adminAddNewLecture</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>adminAddNewLecture</servlet-name>
+    <url-pattern>/adminAddNewLecture</url-pattern>
+  </servlet-mapping>
+
+
+
+
+</web-app>
